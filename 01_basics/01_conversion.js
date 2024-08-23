@@ -12,7 +12,7 @@ console.log(valueInNumber); //output NaN=not a number
 //true =>it converts to 1
 //false => it converts to 0
 
-let isLoggedIn="spoorthi"
+let isLoggedIn = true
 
 
 let booleanisLoggedIn=Boolean(isLoggedIn)
@@ -27,5 +27,11 @@ let someNumber=33
 
 let stringNumber=String(someNumber)
 console.log( stringNumber);
-console.log(typeof stringNumber);
+console.log(typeof stringNumber)
 
+let age=22
+let name="spoo"
+const country="India"
+
+console.log(age,name,country)
+console.log( typeof age, typeof name, typeof country)
