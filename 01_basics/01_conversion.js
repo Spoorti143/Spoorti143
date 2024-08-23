@@ -14,7 +14,6 @@ console.log(valueInNumber); //output NaN=not a number
 
 let isLoggedIn = true
 
-
 let booleanisLoggedIn=Boolean(isLoggedIn)
 console.log(booleanisLoggedIn);
 
