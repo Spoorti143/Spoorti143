@@ -14,7 +14,7 @@ console.log()
 
 // number =>2 to power of 53
 // bigint
-// string=>""
+// string=>" "
 //boolean =>true/false
 // null =>standalone value :emptyy
 //undefined =>it means undeclared value
