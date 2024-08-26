@@ -5,7 +5,7 @@ const scoreValue=100.3
 
 const isLoggedIn=false
 const outsideTemp=null
-let userName;
+//let userName;
 
 const id=Symbol('123');
 const anotherId=Symbol('123')
@@ -29,4 +29,34 @@ const myfunction=function(){
 }
 
 console.log(typeof anotherId);
+
+
+//***************************************************************************************************************************************************************//
+
+//Stack (primitive)
+//heap  (non-primitive)
+
+
+//stack
+let myYoutubeName="spoorthi.com"
+
+let anothername=myYoutubeName  //reference
+anothername="ashlesha"
+
+console.log(anothername);
+console.log(myYoutubeName);
+
+//heap
+let userOne={
+    email:"spoorth06@gmail.com",
+    upi:"upiybl"
+}
+
+let userTwo=userOne
+
+
+userTwo.email="ashu@.gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
