@@ -28,7 +28,7 @@ console.log(newArray);
 console.log(typeof newArray);//converts to string
 
 
-//slice,splice
+//slice,splice //interview question difference in slice and splice
 
 console.log("A",myarray);
 const myn1=myarray.slice(1,3)//it prints original value

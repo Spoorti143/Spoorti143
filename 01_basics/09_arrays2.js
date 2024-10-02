@@ -1,12 +1,12 @@
 const marvel_heros=["thor","ironman","spiderman"];
 const DC=["superman","flashman","batsman"];
 
-// marvel_heros.push(DC)
-// console.log(marvel_heros);
-// console.log(marvel_heros[3][2]);
+marvel_heros.push(DC)
+console.log(marvel_heros);
+console.log(marvel_heros[3][2]);
 
-// const allheros=marvel_heros.concat(DC)//concat method it combine and add new array
-// console.log(allheros);
+const allheros=marvel_heros.concat(DC)//concat method it combine and add new array
+console.log(allheros);
 
 const allnarrays=[...marvel_heros,...DC];//its spread method
 console.log(allnarrays);
