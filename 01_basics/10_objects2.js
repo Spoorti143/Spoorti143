@@ -51,3 +51,27 @@ console.log(tinderUser.hasOwnProperty('email'));
 
 
 
+const course={
+    coursename:"js in hindi",
+    price:999,
+    courseInstructor:"spurthi"
+}
+
+// course.courseInfrastructure
+
+const {courseInstructor} =course
+console.log(courseInstructor);
+
+// {
+//     "name":"spurthi",
+//     "coursename":"js in hindi",
+//     "price":"free"
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
